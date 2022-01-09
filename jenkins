@@ -5,10 +5,8 @@ stages {
     steps {
       withMaven( maven: 'maven') {
     sh 'mvn clean install'
-}
-    }
-  }
-
-}
-
+              }
+          }
+       }
+   }
 }
